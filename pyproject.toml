@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "whose-emotion"
+version = "1.0.0"
+description = "Code for 'Whose Emotion Do Text Classifiers Recover? Explicit Cues, Reader-Inferred Emotion, and Cross-Corpus Transfer'"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Sayak Naskar" }]
+# Minimum versions, as checked by step03_dependencies.py. requirements.txt pins the versions of the final session.
+dependencies = [
+    "torch>=2.0.0",
+    "transformers>=4.48.0",
+    "datasets>=2.14.0",
+    "huggingface_hub>=0.20.0",
+    "accelerate>=0.24.0",
+    "safetensors>=0.4.0",
+    "sentencepiece>=0.1.99",
+    "protobuf>=3.20.0",
+    "peft>=0.10.0",
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "pyarrow>=12.0.0",
+    "scipy>=1.10.0",
+    "scikit-learn>=1.3.0",
+    "statsmodels>=0.14.0",
+    "matplotlib>=3.7.0",
+    "pyyaml>=6.0",
+    "packaging>=23.0",
+]
+
+[project.optional-dependencies]
+llm = ["openai>=1.40.0", "bitsandbytes>=0.43.0"]
+
+[project.scripts]
+whose-emotion = "whose_emotion.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

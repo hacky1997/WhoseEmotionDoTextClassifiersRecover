@@ -1,0 +1,16 @@
+# Local working folder and run outputs
+work/
+runs/
+checkpoints/
+
+# Secrets
+.env
+
+# Python and notebook caches
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+.DS_Store

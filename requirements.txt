@@ -1,0 +1,25 @@
+# Versions logged by the notebook in its final session (Kaggle, Tesla T4, 7 October 2026).
+# Training runs used Transformers 5.0.0, 5.16.1, and 5.17.0 (Supplementary Table S30 of the paper);
+# Cell 3 of the notebook installs any missing package at its minimum version.
+torch==2.10.0
+transformers==5.0.0
+datasets==5.0.0
+huggingface_hub==1.11.0
+accelerate==1.13.0
+safetensors==0.7.0
+sentencepiece==0.2.1
+protobuf==5.29.5
+peft==0.19.1
+numpy==2.0.2
+pandas==2.3.3
+pyarrow==24.0.0
+scipy==1.16.3
+scikit-learn==1.6.1
+statsmodels==0.14.6
+matplotlib==3.10.0
+pyyaml==6.0.3
+packaging==26.1
+# Only for the llm and llm_transfer stages
+openai==2.32.0
+# Only for the llm stage with 4-bit models (version not logged; minimum required by the notebook)
+bitsandbytes>=0.43.0
