@@ -1,6 +1,6 @@
 # Whose Emotion Do Text Classifiers Recover?
 
-This repository contains the code for the paper *Whose Emotion Do Text Classifiers Recover? Explicit Cues, Reader-Inferred Emotion, and Cross-Corpus Transfer* by Sayak Naskar. The paper is under review at IEEE Transactions on Affective Computing.
+This repository contains the code for the paper *Whose Emotion Do Text Classifiers Recover? Explicit Cues, Reader-Inferred Emotion, and Cross-Corpus Transfer*. The paper is under review at IEEE Transactions on Affective Computing.
 
 The code runs every part of the study. It audits the corpora, selects the training recipes, trains all 1,740 models, queries the generative models, runs the statistical analyses, and writes the tables and figures of the paper and its supplement.
 
