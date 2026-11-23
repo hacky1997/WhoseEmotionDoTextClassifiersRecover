@@ -185,5 +185,19 @@ This repository does not include the corpora. The code downloads each corpus fro
 Each corpus is subject to the terms set by its creators. Please read and follow those terms before you use the data.
 
 ## Citation
-
-The citation will be added when the paper is published. Until then, please cite the paper by its title.
+ 
+If you use this code or the released outputs, please cite the paper:
+ 
+> S. Naskar, "Whose Emotion Do Text Classifiers Recover? Explicit Cues, Reader-Inferred Emotion, and Cross-Corpus Transfer," manuscript under review at *IEEE Transactions on Affective Computing*, 2026.
+ 
+```bibtex
+@unpublished{naskar2026whoseemotion,
+  author = {Naskar, Sayak},
+  title  = {Whose Emotion Do Text Classifiers Recover? Explicit Cues, Reader-Inferred Emotion, and Cross-Corpus Transfer},
+  note   = {Manuscript under review at IEEE Transactions on Affective Computing},
+  year   = {2026},
+  url    = {https://github.com/hacky1997/WhoseEmotionDoTextClassifiersRecover}
+}
+```
+ 
+This entry will be updated with the volume, pages, and DOI once the paper is published. GitHub's "Cite this repository" button gives the same reference in other formats.
